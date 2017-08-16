@@ -1,5 +1,5 @@
-class BlogsController < ApiController
-  
+class BlogsController < UsersAuthenticatedController
+  before_action :authenticate_user
   def index
   	data = {}
   	data["blogs"] = Blog.all
