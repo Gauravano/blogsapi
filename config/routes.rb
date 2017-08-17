@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'user/signin'
+
+  get 'user/signup'
+
+  get 'user/signout'
+
   get '/blogs/index' =>"blogs#index"
 
   post '/blogs/create' => "blogs#create"

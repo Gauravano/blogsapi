@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  phone_number: MyString
+  otp: 1
+  otp_expiry: 2017-08-17 00:49:21
+  disabled: false
+
+two:
+  phone_number: MyString
+  otp: 1
+  otp_expiry: 2017-08-17 00:49:21
+  disabled: false
